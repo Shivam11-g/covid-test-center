@@ -20,7 +20,7 @@ mongoose.Promise = global.Promise
 
 app.use(cors());
 
-//
+
 app.use(express.static('public'))
 
 //middleware
